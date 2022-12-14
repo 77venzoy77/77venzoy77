@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Ewert';
+  text-shadow: 0px 0px 10px white;
+}
+body{
+  /* background: linear-gradient(to right, #66ccff 0%, #ff9999 100%); */
+  background: linear-gradient(to right, red 0%, blue 100%);
+} 
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.box1{
+    background: linear-gradient(to top, red 0%,blue 100%);
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+/* .tab1{
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+} */
+.box1,#headerr{
+  color: rgb(255, 255, 255);
+}
+.box1,#boder{
+  color: yellow;
+}
+.box2{
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+    width: 30%;
+    background-image: radial-gradient(circle, rgb(214, 24, 198), rgb(26, 28, 173), rgb(255, 0, 0));
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+.box3{
+  width: 400px;
+  height: 400px;
+  float: right;
+  box-shadow: 10px 10px 50px rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 890px;
+  /* left: 700px; */
+  background-color: rgb(218, 218, 218);
+}
+
+.table1{
+  position: relative;
+  bottom: 700px;
+}
+.table1,tr,th,td{
+  border: 1px solid whitesmoke;
+  width: 30%;
+  
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+th{
+  background-color: blanchedalmond;
+}
